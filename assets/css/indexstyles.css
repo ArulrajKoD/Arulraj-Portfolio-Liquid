@@ -62,7 +62,12 @@ header {
     border-radius: 15px;
     border: 1px solid rgba(255, 255, 255, 0.08);
     background: rgba(255, 255, 255, 0.08);
+    transition-duration: 0.3s;
 }
+header:hover {
+    transform: scale(1.01) translateZ(0);
+}
+
 
 header * {
     color: white;
@@ -186,7 +191,7 @@ header .wapp-btn:hover {
 }
 
 .hero-content .greetings {
-    padding: 10px;
+    padding: 5px 10px;
     width: fit-content;
     border-radius: 50px;
     transition-duration: 0.3s;
@@ -196,7 +201,7 @@ header .wapp-btn:hover {
 }
 
 .hero-content .greetings:hover {
-    transform: scale(1.05) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 .hero-content .greetings::before {
@@ -321,7 +326,7 @@ header .wapp-btn:hover {
 }
 
 .hero-content .hero-img img:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 .hero-content .techs {
@@ -382,7 +387,7 @@ header .wapp-btn:hover {
 }
 
 .about .fpart img:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 .about .fpart .img-caption {
@@ -398,8 +403,9 @@ header .wapp-btn:hover {
     bottom: 5px;
     transition-duration: 0.3s;
 }
+
 .about .fpart .img-caption:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 .about .spart {
@@ -434,7 +440,7 @@ header .wapp-btn:hover {
 }
 
 .about .spart .cards div:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 .about .spart .cards div i {
@@ -459,7 +465,7 @@ header .wapp-btn:hover {
 }
 
 .about .tpart:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 .about .tpart ul {
@@ -511,12 +517,12 @@ header .wapp-btn:hover {
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.062);
-    margin-left: 10px;
     margin-bottom: 25px;
+    margin-left: 10px;
     margin-right: 10px;
     border-radius: 15px;
     padding: 15px 25px;
-    gap: 5px;
+    gap: 15px;
 }
 
 .skills .card {
@@ -528,7 +534,7 @@ header .wapp-btn:hover {
 }
 
 .skills .card:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 .skills .card .top {
@@ -584,22 +590,19 @@ header .wapp-btn:hover {
 .services .cards {
     display: grid;
     place-content: center;
-    grid-template-columns: 40% 40%;
-    gap: 15px;
+    grid-template-columns: 80%;
     margin: 25px 0;
     background-color: rgba(255, 255, 255, 0.062);
     margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 25px;
-    margin-right: 5px;
-    gap: 10px;
+    gap: 15px;
     border-radius: 15px;
     padding: 15px 0px;
 }
 
 .services .card {
-    margin: auto;
     padding: 20px;
-    width: 80%;
     height: 330px;
     background-color: rgba(255, 255, 255, 0.048);
     border-radius: 15px;
@@ -608,7 +611,7 @@ header .wapp-btn:hover {
 }
 
 .services .card:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 .services .card img {
@@ -632,9 +635,9 @@ header .wapp-btn:hover {
     gap: 55px;
     margin: 25px 0;
     background-color: rgba(255, 255, 255, 0.062);
-    margin-left: 10px;
     margin-bottom: 25px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     gap: 20px;
     border-radius: 15px;
     padding: 15px 0px;
@@ -653,7 +656,7 @@ header .wapp-btn:hover {
 }
 
 .projects .card:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 .projects .img {
@@ -741,7 +744,7 @@ header .wapp-btn:hover {
 
 
 .projects .captions button:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 .projects .projects-btn1 {
@@ -776,9 +779,9 @@ header .wapp-btn:hover {
     gap: 15px;
     margin: 25px 0;
     background-color: rgba(255, 255, 255, 0.062);
-    margin-left: 10px;
     margin-bottom: 25px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     gap: 20px;
     border-radius: 15px;
     padding: 15px 0px;
@@ -796,7 +799,7 @@ header .wapp-btn:hover {
 }
 
 .resume .cards .card:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 .resume .card .top {
@@ -866,6 +869,7 @@ header .wapp-btn:hover {
     gap: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
+    padding: 15px 0;
     background: rgba(255, 255, 255, 0.08);
     margin-left: 10px;
     margin-right: 10px;
@@ -877,8 +881,6 @@ header .wapp-btn:hover {
     place-content: center;
     grid-template-columns: 80%;
     gap: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 .getintouch .card {
@@ -896,7 +898,7 @@ header .wapp-btn:hover {
 }
 
 .getintouch .card:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 .getintouch form {
@@ -970,6 +972,8 @@ footer {
     grid-template-columns: 1fr;
     gap: 15px;
     margin: 25px 0;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: rgba(255, 255, 255, 0.062);
     margin-bottom: 25px;
     justify-content: space-between;
@@ -1096,7 +1100,7 @@ footer .top>div {
 }
 
 footer .top>div:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 footer .card-social .social-links img:hover {
@@ -1107,7 +1111,7 @@ footer .bottom {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 10px 15px;
+    margin: 10px;
     background-color: rgba(255, 255, 255, 0.137);
     border-radius: 15px;
     padding: 25px;
@@ -1140,7 +1144,7 @@ footer .bottom {
 }
 
 footer .bottom:hover {
-    transform: scale(1.02) translateZ(0);
+    transform: scale(1.01) translateZ(0);
 }
 
 
@@ -1219,7 +1223,7 @@ footer .bottom:hover {
         display: grid;
         align-items: center;
         justify-content: center;
-        margin: 0 75px;
+        margin: 0 75px; 
     }
 
     .hero-content .hero-img img {
@@ -1335,6 +1339,8 @@ footer .bottom:hover {
         grid-template-columns: 30% 30% 30%;
         gap: 25px;
         margin-top: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .skills .bar-s .bar {
@@ -1363,6 +1369,8 @@ footer .bottom:hover {
         border-radius: 15px;
         padding: 15px 0px;
         margin-bottom: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .services .cards .card {
@@ -1388,6 +1396,8 @@ footer .bottom:hover {
     .projects .cards {
         display: grid;
         grid-template-columns: repeat(4, 23%);
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .projects .card img {
@@ -1406,6 +1416,8 @@ footer .bottom:hover {
     .resume .cards {
         display: grid;
         grid-template-columns: repeat(2, 45%);
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
@@ -1415,6 +1427,8 @@ footer .bottom:hover {
     .resume .cards {
         display: grid;
         grid-template-columns: repeat(3, 30%);
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
@@ -1429,6 +1443,8 @@ footer .bottom:hover {
         display: grid;
         align-items: center;
         grid-template-columns: 40% 60%;
+        margin-left: 10px;
+        margin-right: 10px;
 
     }
 
@@ -1446,6 +1462,8 @@ footer .bottom:hover {
         align-items: center;
         margin: 0 5px;
         grid-template-columns: 1fr;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     footer .card-social {
@@ -1461,7 +1479,8 @@ footer .bottom:hover {
         display: grid;
         align-items: center;
         padding: 0 25px;
-        margin: 0 5px;
+        margin-left: 10px;
+        margin-right: 10px;
         grid-template-columns: 1fr;
     }
 
