@@ -831,10 +831,7 @@ header .wapp-btn:hover {
 }
 
 .resume .card .card-content ul span {
-    background: linear-gradient(to right, #9D63FA, #3a9cf7);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: white;
 }
 
 .resume .card .card-content ul li::before {
@@ -851,10 +848,7 @@ header .wapp-btn:hover {
 }
 
 .resume .card-certification .card-content ul li {
-    background: linear-gradient(to right, #9D63FA, #3a9cf7);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: white;
 }
 
 
